@@ -10,7 +10,7 @@ public class Main{
        double notaPelicula = 8.2;
 
        double media = (8.2 + 6.0 + 9.0) / 3;
-       System.out.println("nota de la pelicula: " + media);
+       System.out.println("nota de la peliculas: " + media);
 
     }
 }
