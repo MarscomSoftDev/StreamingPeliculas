@@ -18,6 +18,10 @@ public class Main{
                 La mejor pelicula del fin del milenio
                 Fue lanzada en: """ + fechaLanzamiento;
         System.out.println(sinopsis);
+
+        int clasificacion = (int)mediaDePelicuas / 2;
+        System.out.println("clasificacion: " + clasificacion);
+
     }
 
 }
