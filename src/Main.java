@@ -12,6 +12,12 @@ public class Main{
         double mediaDePelicuas = (8.2 + 6.0 + 9.3)/3;
 
         System.out.println("la media de las peliculas es:" + mediaDePelicuas);
+
+        String sinopsis = """
+                Matrix, es una paradoja
+                La mejor pelicula del fin del milenio
+                Fue lanzada en: """ + fechaLanzamiento;
+        System.out.println(sinopsis);
     }
 
 }
