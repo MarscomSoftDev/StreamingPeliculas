@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.sql.SQLOutput;
 
 public class Main {
@@ -11,6 +13,14 @@ public class Main {
         double media = (8.2 + 6.0 +9.0) / 3;
 
         System.out.println(media);
-        System.out.println("voy en el 2 . 03");
+
+        String sinopsis = """ 
+                Matrix, es una paradoja
+                la mejor pelicula del fin del milenio
+                fue lanzada en:   
+                """+ fechaDeLanzamiento;
+        System.out.println(sinopsis);
+
+
     }
 }
