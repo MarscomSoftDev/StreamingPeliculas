@@ -20,7 +20,7 @@ public class Main{
         System.out.println(sinopsis);
 
         int clasificacion = (int)mediaDePelicuas / 2;
-        System.out.println("clasificaciones: " + clasificacion);
+        System.out.println("clasificacion: " + clasificacion);
 
     }
 
