@@ -26,6 +26,38 @@ public class softBanc {
         while (opcion != 9){
             System.out.println(menu);
             opcion = teclado.nextInt();
+
+
+            switch (opcion){
+                case 1:
+                    System.out.println("el saldo actualizado es: " + saldo + "$");
+                    break;
+
+                case  2:
+                    System.out.println("Cual es el valor que desea retirar?: ");
+                    double valorARetirar = teclado.nextDouble();
+                    if ( saldo < valorARetirar){
+                        System.out.println("saldo insuficiente");
+                    } else {
+                        saldo = saldo - valorARetirar;
+                        System.out.println("El saldo actualizado es: " + saldo);
+                    }
+                    break;
+
+                case 3 :
+                    System.out.println("cual es el valor que desea depositar?: ");
+                    double valorADepositar = teclado.nextDouble();
+                    saldo = saldo + valorADepositar;
+                    System.out.println("el Saldo actualizado es: " + saldo) ;
+                    break;
+
+                case 9 :
+                    System.out.println("Gracias por usar nuestro servicio");
+                    break;
+
+                default:
+                    System.out.println("opcion no valida, seleccione una opcion del menu");
+            }
         }
 
     }
